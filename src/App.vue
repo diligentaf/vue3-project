@@ -1,7 +1,24 @@
 <template>
   <nav>
+    <h1>Data Binding 👇</h1>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/databinding/string">String</router-link> |
+    <router-link to="/databinding/html">Html</router-link> |
+    <router-link to="/databinding/input">Input</router-link> |
+    <router-link to="/databinding/select">Select</router-link> |
+    <router-link to="/databinding/checkbox">Checkbox</router-link> |
+    <router-link to="/databinding/radio">Radio</router-link> |
+    <router-link to="/databinding/attribute">Attribute</router-link> |
+    <router-link to="/databinding/list">List</router-link> |
+    <router-link to="/databinding/class">Class</router-link> |
+    <router-link to="/databinding/style">Style</router-link>
+    <br>
+    <br>
+    <h1>Event 👇</h1>
+    <router-link to="/event/click">Event Click</router-link> |
+    <router-link to="/event/change">Event Change</router-link> |
+    <router-link to="/event/key">Event Key</router-link> |
   </nav>
   <router-view/>
 </template>
