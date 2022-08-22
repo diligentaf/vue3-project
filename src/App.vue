@@ -19,6 +19,10 @@
     <router-link to="/event/click">Event Click</router-link> |
     <router-link to="/event/change">Event Change</router-link> |
     <router-link to="/event/key">Event Key</router-link> |
+    <br>
+    <br>
+    <h1>Vuex 👇</h1>
+    <router-link to="/vuex/home">Vuex Home</router-link> |
   </nav>
   <router-view/>
 </template>

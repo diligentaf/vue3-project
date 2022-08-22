@@ -122,6 +122,14 @@ const routes = [
       import(
         /* webpackChunkName: "event" */ '@/views/2_event/EventKeyView.vue'
       )
+  },
+  {
+    path: '/vuex/home',
+    name: 'VuexView',
+    component: () =>
+      import(
+        /* webpackChunkName: "vuex" */ '@/views/3_vuex/VuexView.vue'
+      )
   }
 ]
 
