@@ -23,6 +23,8 @@
     <br>
     <h1>Vuex 👇</h1>
     <router-link to="/vuex/home">Vuex Home</router-link> |
+    <h1>Keplr 👇</h1>
+    <router-link to="/keplr/osmo">Connecting to Keplr</router-link> |
   </nav>
   <router-view/>
 </template>

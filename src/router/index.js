@@ -130,6 +130,14 @@ const routes = [
       import(
         /* webpackChunkName: "vuex" */ '@/views/3_vuex/VuexView.vue'
       )
+  },
+  {
+    path: '/keplr/osmo',
+    name: 'KeplrView',
+    component: () =>
+      import(
+        /* webpackChunkName: "keplr" */ '@/views/4_keplr/KeplrView.vue'
+      )
   }
 ]
 
